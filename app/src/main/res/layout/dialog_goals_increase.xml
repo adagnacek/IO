@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_reminders_dialog"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GoalIncrease"
+        android:textSize="25dp"
+        android:textColor="@color/mainLightAccent" />
+    <EditText
+        android:id="@+id/dialog_goal_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/mainAccent"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/cancel_goals_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/Cancel"
+            android:background="@drawable/shape_reminders_button"
+            android:textColor="@color/mainAccent"
+            android:textSize="20dp"
+            android:layout_margin="7dp"/>
+        <Button
+            android:id="@+id/increase_goals_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/Add"
+            android:background="@drawable/shape_reminders_button"
+            android:textSize="20dp"
+            android:textColor="@color/mainAccent"
+            android:layout_margin="7dp"/>
+    </LinearLayout>
+</LinearLayout>

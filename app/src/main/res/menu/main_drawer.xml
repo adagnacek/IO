@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_drawer_calendarItem"
+        android:icon="@drawable/icon_calendar"
+        android:title="@string/Drawer_Calendar" />
+    <item
+        android:id="@+id/main_drawer_remindersItem"
+        android:icon="@drawable/icon_reminders"
+        android:title="@string/Drawer_Reminders" />
+    <item
+        android:id="@+id/main_drawer_goalsItem"
+        android:icon="@drawable/icon_goals"
+        android:title="@string/Drawer_Goals" />
+    <item
+        android:id="@+id/main_drawer_shoppingItem"
+        android:icon="@drawable/icon_shopping"
+        android:title="@string/Drawer_Shopping" />
+
+    <item
+        android:id="@+id/main_drawer_todosItem"
+        android:icon="@drawable/icon_todos"
+        android:title="@string/Drawer_Todos" />
+    <!--<item
+        android:id="@+id/settings_menuItem"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/Drawer_Settings" />-->
+</menu>

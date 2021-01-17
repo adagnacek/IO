@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <item android:id="@+id/shopping_bottommenu_wishbutt"
+        android:title="@string/Shopping_Wishlist"
+        android:icon="@drawable/icon_shopping_wishlist" />
+    <item android:id="@+id/shopping_bottommenu_basketbutt"
+        android:title="@string/Shopping_Basket"
+        android:icon="@drawable/icon_shopping_basket" />
+    <item android:id="@+id/shopping_bottommenu_prodlistbutt"
+        android:title="@string/Shopping_List"
+        android:icon="@drawable/icon_shopping_productlist" />
+</menu>

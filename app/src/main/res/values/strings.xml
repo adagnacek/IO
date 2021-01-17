@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">OrganisR</string>
+    <string name="title_activity_main">OrganisR</string>
+
+    <string name="TO_REPLACE">TO_REPLACE</string>
+
+    <string name="idOne">One</string>
+    <string name="idTwo">Two</string>
+    <string name="idThree">Three</string>
+    <string name="idFour">Four</string>
+    <string name="idFive">Five</string>
+    <string name="idSix">Six</string>
+    <string name="idSeven">Seven</string>
+    <string name="idEight">Eight</string>
+    <string name="idNine">Nine</string>
+
+    <string name="Cancel">Cancel</string>
+    <string name="Add">Add</string>
+    <string name="Edit">Edit</string>
+    <string name="Edit_Quantity">Edit Quantity</string>
+    <string name="Delete">Delete</string>
+    <string name="Save">Save</string>
+
+    <!-- Main -->
+    <string name="Main_Quote">DailyQuote:</string>
+    <string name="Main_SoonEvents">Incoming:</string>
+    <string name="Main_Reminders">Reminders:</string>
+    <string name="Main_Shopping">Shopping</string>
+    <string name="Main_WeeklyGoals">Goals:</string>
+
+    <!-- DrawerMenu -->
+    <string name="drawer_Open">DrawerOpen</string>
+    <string name="drawer_Closed">DrawerClose</string>
+
+    <string name="Drawer_Calendar">Calendar</string>
+    <string name="Drawer_Reminders">Reminders</string>
+    <string name="Drawer_Goals">Goals</string>
+    <string name="Drawer_Shopping">Shopping</string>
+    <string name="Drawer_Todos">Todos</string>
+    <string name="Drawer_Settings">Settings</string>
+
+    <!-- Reminders -->
+    <string name="RemType1">Idea</string>
+    <string name="RemType2">Owe</string>
+    <string name="RemType3">ToFix</string>
+
+    <string name="AddDialogTitle">Adding new reminder:</string>
+    <string name="EditDialogTitle">Editing long reminder:</string>
+    <string name="ProductDeleteDialogTitle">Do you want to delete this product?</string>
+
+    <!-- Shopping -->
+    <string name="Shopping_Wishlist">Wishlist</string>
+    <string name="Shopping_Basket">Basket</string>
+    <string name="Shopping_List">List</string>
+
+    <string name="ShopType1">Groceries</string>
+    <string name="ShopType2">Hygiene/Cosmetics</string>
+    <string name="ShopType3">Household</string>
+    <string name="ShopType4">Technology</string>
+    <string name="ShopType5">Other</string>
+
+    <string name="ShopBasketEstimation">Sum: </string>
+    <string name="ShopProductlistQuantity">Quantity: </string>
+    <string name="ShopProductlistName">Name: </string>
+    <string name="ShopProductlistPriceRange">PriceRange: </string>
+    <string name="ShopProductlistType">Type: </string>
+s
+    <string name="AddDialogTitleWishlist">Adding product to wishlist:</string>
+    <string name="AddDialogTitleBasket">Adding product to basket:</string>
+    <string name="AddDialogTitleProduct">Adding new product:</string>
+    <string name="EditDialogTitleProduct">Editing product:</string>
+    <string name="RemDeleteDialogTitle">Do you want to delete this reminder?</string>
+    <!-- Goals -->
+    <string name="GoalType1">Health</string>
+    <string name="GoalType2">Culture</string>
+    <string name="GoalType3">Languages</string>
+    <string name="GoalType4">Programming</string>
+    <string name="GoalType5">Other</string>
+
+    <string name="GoalType1Short">Hlth</string>
+    <string name="GoalType2Short">Cltr.</string>
+    <string name="GoalType3Short">Lng.</string>
+    <string name="GoalType4Short">Prgrm.</string>
+    <string name="GoalType5Short">Other</string>
+
+    <string name="GoalName">Name: </string>
+    <string name="GoalType">Category: </string>
+    <string name="GoalGoal">Goal: </string>
+    <string name="GoalFrequency">Frequency: </string>
+    <string name="GoalStart">StartDate: </string>
+    <string name="GoalIncrease">Increase progress by: </string>
+
+    <!-- Calendar -->
+    <string name="CalendarButt3">Today</string>
+    <string name="CalendarButt4">DayCard</string>
+
+    <string name="EventName">Name:</string>
+    <string name="EventStartHour">StartHour:</string>
+    <string name="EventEndHour">EndHour:</string>
+    <string name="EventRepeatance">Repeatance:</string>
+    <string name="EventRepeatanceUnit">Repeatance Unit:</string>
+    <string name="EventUrgencyLevel">Urgency(0-9):</string>
+    <string name="EventDescription">Description:</string>
+
+
+
+    <string-array name="repeatance_units_array">
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ShoppingActivity">
+
+    <FrameLayout
+        android:id="@+id/shopping_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="?attr/actionBarSize" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/shopping_navigationbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/shopping_bottom_menu"
+        app:itemIconTint="@drawable/selector_shopping"
+        app:itemTextColor="@drawable/selector_shopping"
+        app:itemBackground="@color/mainPrimary"
+        />
+
+</android.support.constraint.ConstraintLayout>

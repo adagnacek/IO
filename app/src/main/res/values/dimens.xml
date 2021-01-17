@@ -1,5 +1,0 @@
-<resources>
-    <dimen name="spinner_item">20dp</dimen>
-    <dimen name="item_button">50dp</dimen>
-    <dimen name="shopping_item_txt">25dp</dimen>
-</resources>

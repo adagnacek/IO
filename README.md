@@ -1,2 +1,0 @@
-# IO
-inżynieria oprogramowania

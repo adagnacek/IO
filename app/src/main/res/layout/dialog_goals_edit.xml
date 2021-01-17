@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_reminders_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/GoalName"/>
+
+            <EditText
+                android:id="@+id/dialog_goals_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/GoalType"/>
+
+        <Spinner
+            android:id="@+id/goals_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/GoalGoal"/>
+
+            <EditText
+                android:id="@+id/dialog_goals_goal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/GoalFrequency"/>
+
+            <EditText
+                android:id="@+id/dialog_goals_frequency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Frequency unit:"/>
+
+        <Spinner
+            android:id="@+id/dialog_goals_repeatanceunit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainLightAccent"
+            android:background="@color/mainLightAccent"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/GoalStart"/>
+
+        <DatePicker
+            android:id="@+id/dialog_goals_datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+        <Button
+            android:id="@+id/cancel_goals_button"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="@string/Cancel"
+            android:background="@drawable/shape_reminders_button"
+            android:textColor="@color/mainPrimaryDark"
+            android:layout_margin="7dp"/>
+        <Button
+            android:id="@+id/edit_goals_button"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:text="@string/Edit"
+            android:background="@drawable/shape_reminders_button"
+            android:textColor="@color/mainPrimaryDark"
+            android:layout_margin="7dp"/>
+    </LinearLayout>
+
+</LinearLayout>

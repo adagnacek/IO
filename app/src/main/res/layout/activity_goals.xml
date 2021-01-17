@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.GoalsActivity"
+    android:background="@drawable/shape_main_background"
+    android:padding="7dp">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:tint="@color/mainLightAccent"
+        android:backgroundTint="@color/mainPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="16dp"
+        app:borderWidth="0dp"
+        android:onClick="add"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <ListView
+        android:id="@+id/goals_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+</android.support.constraint.ConstraintLayout>
